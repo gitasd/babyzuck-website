@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18.666" height="18.666" viewBox="0 0 18.666 18.666">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #42b72a;
+      }
+    </style>
+  </defs>
+  <path id="Icon_material-radio-button-checked" data-name="Icon material-radio-button-checked" class="cls-1" d="M12.333,7.667A4.667,4.667,0,1,0,17,12.333,4.668,4.668,0,0,0,12.333,7.667Zm0-4.667a9.333,9.333,0,1,0,9.333,9.333A9.337,9.337,0,0,0,12.333,3Zm0,16.8A7.467,7.467,0,1,1,19.8,12.333,7.464,7.464,0,0,1,12.333,19.8Z" transform="translate(-3 -3)"/>
+</svg>

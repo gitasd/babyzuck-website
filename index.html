@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Babyzuck</title>
+	<link rel="stylesheet" type="text/css" href="css/babyzuck.css">
+    <link rel="stylesheet" type="text/css" href="hero.css">
+    <link rel="stylesheet" type="text/css" href="roadmap.css">
+    <script type="text/javascript" src="js/scroll.js"></script>
+    
+
+    
+</head>
+<body>
+    
+    <header class="header">
+        <a href="index.html" class="logo">Babyzuck</a>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <ul class="menu">
+        <li><a class="headlinks" href="#home">Home</a></li>
+        <li><a class="headlinks" href="#about">About</a></li>
+        <li><a class="headlinks" href="#buy">Buy</a></li>
+        <li><a class="headlinks" href="#roadmap">Roadmap</a></li>
+        <li><a class="headlinks" href="#contact">Contact</a></li>
+        <li><a class="headimglinks" href="#buynow"><button class="headbutton1">Buy Now</button></a></li>
+        <li><a class="headimglinks" href="#livechart"><button class="headbutton2">Live Chart</button></a></li>
+        </ul>
+    </header>
+
+    <!-- <div class="upperspace"></div> -->
+    <div class="responsive-head-buttons">
+        <a href="#buynow"><button class="res-button1">Buy Now</button></a>
+        <a href="#livechart"><button class="res-button2">Live Chart</button></a>
+    </div>
+
+    <div class="hero-div">
+        <div class="hero-welcome">
+            <h3>Welcome to BabyFaceBook!</h3>
+            <h1>Mark Zuckerberg’s first ever token on De-Fi!</h1>
+            <p>Baby Zuck is decentralized memecoin 
+                linked to the exclusive BabyZuck 
+                NFT collection.</p>
+            </div>
+        <div class="hero-img">
+            <img class="hero-zuck" src="res//Attachment_1628957375__1_-removebg-preview@2x.png">
+        </div>
+    </div>
+    <div>
+        <a href="#nft-collection"><button class="nft-collection-btn">NFT Collection</button></a>
+    </div>  
+    
+    
+    <div class="tokenomics">
+        <div class="zuck-details">
+            <img class="baby-zuck-details" src="res/Attachment_1628957375-removebg-preview.png">
+            <ul class="ul-1">
+                <li> <img src="res/listbullets.png"> NAME </li>
+                <p>Baby Zuck V2</p>
+                
+                <li class="symbol"> <img src="res/listbullets.png"> SYMBOL <p>$BabyZuck</p></li>
+                <!-- <p>$BabyZuck</p> -->
+            </ul>
+            <ul class="ul-2">
+                <li> <img src="res/listbullets.png"> CONTACT ADDRESS</li>
+                <p>0X322080Dae6752Ee02F2Fb8850Bd4A75B9F3C1371</p>
+                <li> <img src="res/listbullets.png"> TOKEN TYPE</li>
+                <p>ETHEREUM/ERC-20</p>
+                <li> <img src="res/listbullets.png"> TOTAL SUPPLY</li>
+                <p>1 Trillion $BabyZuck Tokens</p>
+                <li> <img src="res/listbullets.png"> SLIPPAGE</li>
+                <p>12%</p>
+            </ul>
+        </div>
+        <div class="tokendetails">
+            <h3>TOKENOMICS</h3>
+            <h1>Token Details</h1>
+            <canvas id="myChart" aria-label="chart" role="img" height="400" width="400"></canvas>
+            <script type="text/javascript" src="js/chart.js"></script>
+	        <script type="text/javascript" src="js/doughnut.js"></script>
+            <h1 class="bottom-details-head">Supply Breakdown</h1>
+        </div>
+
+    </div>
+
+    <div class="cards-wrapper">
+        <div class="card-text">
+            <h3>High APR % Interest on Investment Holdings</h3>
+            <p>$BabyZuck is a yield-generating token that automatically rewards holders with 3% redistribution interest 
+                from every transaction. You can find BabyZuck’s megacool NFTs listed on Opensea Marketplace. 
+                Holders stand a chance to win free airdrops of BabyZuck NFTs</p>
+        </div>
+        <div class="cards">
+            <div class="card-1">
+                <img src="res/Campaign launch_Isometric.png">
+                <h1>Fair Launched</h1>
+                <p>No pre-released contracts or presale. 
+                    Everyone gets a fair chance to buy 
+                    BabyZuck at launch.</p>
+            </div>
+            <div class="card-2">
+                <img src="res/Money transfer _Isometric.png">
+                <h1>High Yield Auto Farming</h1>
+                <p>BabyZuck rewards holders with reflections 
+                    from every transaction. 3% of every 
+                    transaction; buy/sell is redistributed 
+                    automatically to holders.</p>
+            </div>
+            <div class="card-3">
+                <img id="card-3-img" src="res/Password_Isometric.png">
+                <h1>Safe Guarded & Secure </h1>
+                <p>Your investment in BabyZuck is safe and 
+                    unruggable. There are no dev wallets or team 
+                    tokens. The contract ownership is renounced 
+                    and the liquidity is securely locked.</p>
+            </div>
+
+        </div>
+    </div> 
+
+    <div class="timeline-wrapper">
+        <div class="timeline-left">
+            <img id="slide-left" src="res/roadmapleftbtn.png" onclick="left();">
+        </div>
+        <div class="timeline">
+            <hr class="line">
+            <!-- <br> -->
+            <h3>Our Roadmap</h3>
+            <div id="roadmap-timeline"class="roadmap"> 
+                <ul class="road-list">
+                    <li class="road-item"> <img src="res/stamp1.png"><span id="s1" class="event-1"> Q3 2021
+                        (0 – 500 HOLDERS)</span></li>
+                    <li class="road-item"> <img src="res/stamp2.png"><span id="s2"> Branding
+                        (completed)</span></li>
+                    <li class="road-item"> <img src="res/stamp4.png"><span id="s1">Website
+                        (completed)</span></li>
+                    <li class="road-item"> <img src="res/stamp5.png"><span id="s2">Mint $babyzuck
+                        (completed)</span></li>
+                    <li class="road-item"> <img src="res/stamp10.png"><span id="s1">Uniswap Fair Launch
+                        (completed)</span></li>
+                    <li class="road-item"> <img src="res/stamp3.png"><span id="s2">Liquidity Lock
+                        (completed)</span></li>
+                    <li class="road-item"> <img src="res/stamp7.png"><span id="s1">Ownership Renouncement
+                        (completed)
+                    </span></li>
+                    <li class="road-item"> <img src="res/stamp6.png"><span id="s2">Community Structuring</span></li>
+                    <li class="road-item"> <img src="res/stamp9.png"><span id="s1">Awareness Marketing </span></li>
+                    <li class="road-item"> <img src="res/stamp8.png"><span id="s2">BabyZuck NFT Collection Drop</span></li>
+                    <li class="road-item"> <img src="res/stamp6.png"><span id="s1">Q4 2021
+                        (501 – 1000 HOLDERS)
+                        </span></li>
+                    <li class="road-item"> <img src="res/stamp10.png"><span id="s2">BabyZuck NFT Airdrop Contest</span></li>
+                    <li class="road-item"> <img src="res/stamp2.png"><span id="s1">Coingecko Listing</span></li>
+                    <li class="road-item"> <img src="res/stamp2.png"><span id="s2">Coinmarketcap Listing</span></li>
+                    <li class="road-item"> <img src="res/stamp5.png"><span id="s1">White Paper Release</span></li>
+                    <li class="road-item"> <img src="res/stamp10.png"><span id="s2">Partnerships With Influencers</span></li>
+                    <li class="road-item"> <img src="res/stamp6.png"><span id="s1">Q1 2022
+                        (1001+ HOLDERS)
+                        </span></li>
+                    <li class="road-item"> <img src="res/stamp5.png"><span id="s2">Techrate Audit</span></li>
+                    <li class="road-item"> <img src="res/stamp2.png"><span id="s1">CEX Exchange Listings</span></li>
+                    <li class="road-item"> <img src="res/stamp8.png"><span id="s2">BabyZuck On A Billboard In Newyork Times Square</span></li>
+                    <li class="road-item"> <span id="s2"></span></li>
+                    <li class="road-item"> <span id="s2"></span></li>
+
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="timeline-right">
+            <img id="slide-right" src="res/roadmaprightbtn.png" onclick="right();">
+        </div>
+    </div>
+    
+    <div class="disclaimer">
+        <div class="legal-disclaimer">
+            <h3>Legal Disclaimer</h3>
+            <p>The Information Provided On This Website Does Not Constitute Investment 
+                Advice, Financial Advice, Trading Advice, Or Any Other Sort Of Advice And 
+                You Should Not Treat Any Of The Website'S Content As Such. Always Make 
+                Sure That You Are In Compliance With Your Local Laws And Regulations 
+                Before You Make Any Purchase.</P>
+        </div>
+        <div class="risk-disclosure">
+            <h3>Risk Disclousre</h3>
+            <p>Please Note There Are Always Risks Associated With Smart-Contracts. Please Use At
+                Your Own Risk. We Do Not Accept Any Liability For Any Loss Or Damage Whatsoever 
+                Caused In Reliance Upon Such Information Or Services. Please Be Aware Of The 
+                Risks Involved With Any Trading Done In Any Financial Market. Do Not Trade With 
+                Money That You Cannot Afford To Lose. When In Doubt, You Should Consult A 
+                Qualified Financial Advisor Before Making Any Investment Decisions.</p>
+        </div>
+    </div>
+    
+    
+    <footer>
+        <div class="footer">
+            <div class="foot-logo">
+                <img src="res/footerzuck.png">
+            </div> 
+            <div class="foot-about-us">
+                <h2>About Us</h2>
+                <ul class="footerlist">
+                    <li><a href="#who we are">Who we are</a></li>
+                    <li><a href="#ourteam">Our Team</a></li>
+                    <li><a href="#press">Press</a></li>
+                    <li><a href="#career">Career</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                </ul>
+            </div>
+            <div class="foot-social">
+                <h2>Social Media</h2>
+                <div class="socials">
+                    <a href="#teleagram"><img src="res/Icon awesome-telegram-plane.png"></a>
+                    <a href="#twitter"><img src="res/Icon awesome-twitter.png"></a>
+                </div>
+
+                <h2>Contact Us</h2>
+                <a class="chatbot" href="#chatbot">Chatbot</a>
+            </div>
+        </div>
+        <div class="footer-copyright-wrapper">
+            <p class="footer-copyright-text">
+                All rights reserved © 2021 
+            </p>
+            <p class="footer-copyright-links">
+                <a href="#disclaimer">Disclaimer</a>
+                <a href="#copyright">Copyright</a>
+                <a href="#terms">Terms</a>
+            </p>
+        </div>
+    </footer>
+
+</body>

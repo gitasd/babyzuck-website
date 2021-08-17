@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+.roadmap{
+    width: 50vw;
+    height: 216.6px;
+    margin: 4px, 4px;
+    /* padding: 4px; */
+    padding-left: 90px;
+    padding-top: 200px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space:nowrap;
+    scroll-snap-stop: always;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+.roadmap::-webkit-scrollbar{ 
+    /* for safari chrome and opera */
+    display: none;
+}
+.timeline{
+    background-image: url(res/bgpath.png);
+    background-repeat: no-repeat;
+    background-origin:padding-box;
+    background-size: 100%;
+    background-position: center;
+    width: 90%;
+}
+.timeline-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.timeline-left, .timeline-right{
+    width: 5%;
+}
+.timeline-right{
+    background-color: #FFFFFF;
+    z-index: 1;
+}
+.timeline-left img{
+    float: right;
+    align-self: center;
+    position: relative;
+    top: 322px;
+}
+.timeline-right img{
+    position: relative;
+    top: 322px;
+}
+.timeline h3{
+    color: #1877F2;
+    font-weight: normal;
+    font-size: 2.2em;
+    text-align: center;
+}
+hr.line {
+    border-top: 5px solid #1877F2;
+    margin-left: 0;
+    position: relative;
+    top: 338px;
+  }
+.road-list{
+    list-style: none;
+    padding-left: 0;
+}
+.road-list li{
+    display: inline-block;
+    padding-right: 0.6vw;
+}
+#s1{
+    position: relative;
+    top: -200px;
+    left: -120px;
+}
+#s2{
+    position: relative;
+    bottom: -40px;
+    left: -120px; 
+}
+#s1, #s2{
+    justify-content: left;
+}
+.road-list img{
+    width: 60px;
+    height: auto;
+    position: relative;
+    top: -36px;
+}
+@media screen and (max-width: 1104px){
+    .timeline{
+        width: 80%;
+        background-origin:padding-box;
+        background-size: 100%;
+        background-position:center;
+    }
+    .timeline-right, .timeline-left{
+        width: 50%;
+    }
+}
+/* .road-list::before {
+    content: '';
+    width: 100%;
+    border-top: 4px solid #1877F2;
+    display: inline-block;
+    position: absolute;
+    top: 210px;
+    left: 5px;
+    z-index: -1;
+
+} */
